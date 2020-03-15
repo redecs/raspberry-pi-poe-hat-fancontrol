@@ -58,7 +58,7 @@ do
   fi
 
   echo "fan_speed set to:"
-  echo $fan_speed | sudo tee /sys/class/hwmon/hwmon0/def_pwm1
+  echo $fan_speed | sudo tee /sys/class/hwmon/hwmon0/pwm1
   echo ""
 
 
